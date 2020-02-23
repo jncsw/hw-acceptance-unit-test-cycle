@@ -4,6 +4,9 @@ class Movie < ActiveRecord::Base
   end
   
   def self.similar(director)
+    if director.nil?
+      return nil
+    end
     self.where(director: director)
   end
   
