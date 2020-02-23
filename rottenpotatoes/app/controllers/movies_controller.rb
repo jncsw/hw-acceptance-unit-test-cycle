@@ -64,7 +64,7 @@ class MoviesController < ApplicationController
   
   def similar_results
     @movie = Movie.find(params[:id])
-    puts @movie.director==''
+    puts @movie.title
     if not (@movie.director.nil? or @movie.director=='')
       @similar_movies = Movie.similar(@movie.director)
     else
