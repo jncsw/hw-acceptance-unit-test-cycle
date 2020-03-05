@@ -1,0 +1,6 @@
+...
+
+Finished in 0.03356 seconds (files took 1.67 seconds to load)
+3 examples, 0 failures
+
+Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 50 / 58 LOC (86.21%) covered.
