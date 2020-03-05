@@ -1,7 +1,7 @@
 rottenpotatoes/.bundle/
 rottenpotatoes/.rspec
 rottenpotatoes/.ruby-version
-rottenpotatoes/coverage/
+; rottenpotatoes/coverage/
 rottenpotatoes/db/*.sqlite3
 rottenpotatoes/db/schema.rb
 rottenpotatoes/lib/tasks/
